@@ -475,9 +475,30 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="subscribe-title">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-email">
+              <input
+                class="subscribe-text"
+                type="email"
+                id="subscribe-email"
+                name="subscribe-email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="subscribe-button">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-
+    <!-- modal-windows -->
     <div class="backdrop is-open">
       <div class="modal">
         <button class="button-close" type="button">
@@ -489,7 +510,6 @@
         <form>
           <div class="form-field">
             <label for="user-name" class="label-field">Name</label>
-
             <div class="input-wrapper">
               <input
                 type="text"
@@ -503,7 +523,6 @@
               </svg>
             </div>
           </div>
-
           <div class="form-field">
             <label for="user-tel" class="label-field">Phone</label>
             <div class="input-wrapper">
@@ -534,7 +553,6 @@
               </svg>
             </div>
           </div>
-
           <div class="form-field-textarea">
             <label for="user-comment" class="label-field">Comment</label>
             <textarea
@@ -544,7 +562,6 @@
               placeholder="Text input"
             ></textarea>
           </div>
-
           <div class="form-field-policy">
             <input
               class="field-checkbox visually-hidden"
@@ -563,7 +580,6 @@
               <a href="" class="policy-link">Privacy Policy</a></label
             >
           </div>
-
           <button class="button-send" type="submit">Send</button>
         </form>
       </div>
