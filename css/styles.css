@@ -25,7 +25,6 @@ img {
   display: block;
 }
 .accent {
-  color: #4d5ae5;
 }
 .container {
   max-width: 1158px;
@@ -581,6 +580,11 @@ img {
 .form-field-policy {
   margin-bottom: 24px;
 }
+.field-checkbox:checked + .polisy-label > .checkbox-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
 .polisy-label {
   font-size: 12px;
   line-height: 1.17;
@@ -599,18 +603,32 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  margin-right: 8px;
+}
+.policy-link {
+  color: #4d5ae5;
+  text-decoration: underline;
 }
 .button-send {
   display: block;
+  text-align: center;
   min-width: 169px;
   height: 56px;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  border-radius: 4px;
+  padding: 16px 32px;
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 95px;
+  margin-right: 96px;
 }
+
 /* #endregion footer */
