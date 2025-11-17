@@ -575,4 +575,7 @@ img {
 .comment-textarea:focus {
   border-color: #4d5ae5;
 }
+.form-field-policy {
+  margin-bottom: 24px;
+}
 /* #endregion footer */
